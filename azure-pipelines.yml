@@ -33,7 +33,7 @@ script_dependencies: |
     pip install -r requirements.txt
     displayName: 'Install dependencies'
 
-script_test: |
-    pip install pytest pytest-azurepipelines
-    pytest
-    displayName: 'pytest'
+#script_test: |
+#    pip install pytest pytest-azurepipelines
+#    pytest
+#    displayName: 'pytest'
